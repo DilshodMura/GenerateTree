@@ -16,6 +16,6 @@ namespace BinaryTree
         /// <summary>
         /// Gets or sets array of tree items
         /// </summary>
-        public TreeItems[] Children { get; set; }
+        public List<TreeItems> Children { get; set; }
     }
 }
